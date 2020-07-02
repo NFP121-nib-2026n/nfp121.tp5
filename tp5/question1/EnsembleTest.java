@@ -19,4 +19,16 @@ public class EnsembleTest extends junit.framework.TestCase {
 		assertTrue(union.contains(4));
 	}
 	
+	public void testAdd(){
+	    question1.Ensemble<Integer> e1;
+		e1 = new question1.Ensemble<Integer>();
+		assertEquals(true, e1.add(2));
+		assertEquals(true, e1.add(3));
+		assertEquals(false, e1.add(2));
+	   }
+
+    public void testTes()
+    {
+    }
 }
+
